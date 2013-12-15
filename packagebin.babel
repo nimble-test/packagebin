@@ -1,0 +1,11 @@
+[Package]
+name          = "PackageBin"
+version       = "0.1.0"
+author        = "Test"
+description   = "Test"
+license       = "MIT"
+
+bin = "packagebin"
+
+[Deps]
+Requires: "nimrod >= 0.9.2, https://github.com/babel-test/packagea.git 0.5, https://github.com/babel-test/packageb.git#head"
